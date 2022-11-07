@@ -21,8 +21,8 @@ Hint: решить задачу поможет метод countTokens().
 
 public class Solution {
     public static void main(String[] args) {
-        String packagePath = "java/util/stream/src/main";
-        String[] tokens = getTokens(packagePath, "/");
+        String packagePath = "java/util.stream/src|main";
+        String[] tokens = getTokens(packagePath, "/.,");
         System.out.println(Arrays.toString(tokens));
     }
 
