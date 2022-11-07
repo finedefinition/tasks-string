@@ -3,7 +3,6 @@ package changepath;
 public class Solution {
     public static void main(String[] args) {
         String path = "/usr/java/jdk1.8/bin/";
-
         String jdk13 = "jdk-13.02";
         System.out.println(changePath(path, jdk13));
     }
